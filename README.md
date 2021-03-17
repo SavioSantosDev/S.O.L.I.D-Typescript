@@ -7,6 +7,12 @@ A pasta `src/legacy` contém o arquivo inicial de carrinho de compras com todas 
 
 ## S - Single responsability principle || Princípio da responsabilidade única
 
-Todas as entidades (classes, módulos, métodos...) devem ter apenas uma responsabilidade, por exemplo, se for desenvolvido um programa para eccomerce, as responsabilidades deverão ser abstraídas em várias classes, como carrinho de compras, envio de email, envio de mensagens informativas, verificação dos produtos no carrinho... e assim por diante.
+As classes devem ter apenas uma responsabilidade, por exemplo, se for desenvolvido um programa para eccomerce, as responsabilidades deverão ser abstraídas em várias classes, como carrinho de compras, envio de email, envio de mensagens informativas, verificação dos produtos no carrinho... e assim por diante.
 
-- Atualmente o carrinho tem a responsabilidade de gerenciar os ítens do carrinho, checar e confirmar o pedido. Tudo será abstraído em outras classes, novas funcionalidades foram adicionadas e o arquivo `main.ts` será utilizado para instanciar tudo.
+- Em legacy o carrinho tem a responsabilidade de gerenciar os ítens do carrinho, checar e confirmar o pedido. Tudo será abstraído em outras classes, novas funcionalidades foram adicionadas e o arquivo `main.ts` será utilizado para instanciar tudo.
+
+## O - Open/Closed principle || Princípio do aberto/fechado
+
+Todas as entidades (classes, módulos, métodos...) devem ser abertas para expansão e fechadas para a modificação.
+
+Será adicionado a funcionalidade de cupom de descontos de uma forma que não seja necessário modificar nossas entidades para adicionar/remover descontos em nosso programa e que ao mesmo tempo seja possível expandir novas funcionalidades em nossa aplicação.
