@@ -1,0 +1,30 @@
+{
+  "name": "s.o.l.i.d-typescript",
+  "version": "1.0.0",
+  "description": "Repositório para o entendimento dos 5 princípios S.O.L.I.D utilizando Typescript.",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SavioSantosDev/s.o.l.i.d-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SavioSantosDev/s.o.l.i.d-typescript/issues"
+  },
+  "homepage": "https://github.com/SavioSantosDev/s.o.l.i.d-typescript#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.15.1",
+    "@typescript-eslint/parser": "^4.15.1",
+    "eslint": "^7.20.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.5"
+  }
+}
