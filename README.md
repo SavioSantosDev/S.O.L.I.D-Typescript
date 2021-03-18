@@ -16,3 +16,9 @@ As classes devem ter apenas uma responsabilidade, por exemplo, se for desenvolvi
 Todas as entidades (classes, módulos, métodos...) devem ser abertas para expansão e fechadas para a modificação.
 
 Será adicionado a funcionalidade de cupom de descontos de uma forma que não seja necessário modificar nossas entidades para adicionar/remover descontos em nosso programa e que ao mesmo tempo seja possível expandir novas funcionalidades em nossa aplicação.
+
+## L - Liskov substitution priciple || Princípio da substituição de Liskov
+
+Subtipos precisam ser substituíveis por seus tipos de base
+- Se meu programa espera um Animal, algo do tipo Cachorro (que herda de Animal) deve servir como qualquer outro animal.
+- Se um mamífero não mama ele não deveria ser um mamífero
