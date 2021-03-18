@@ -22,3 +22,7 @@ Será adicionado a funcionalidade de cupom de descontos de uma forma que não se
 Subtipos precisam ser substituíveis por seus tipos de base
 - Se meu programa espera um Animal, algo do tipo Cachorro (que herda de Animal) deve servir como qualquer outro animal.
 - Se um mamífero não mama ele não deveria ser um mamífero
+
+## I - Interface segragation principle || Princípio da segregação de interface
+
+Os clientes não devem ser forçados a depender de interfaces, types ou classes abstratas que não utilizam. Ou seja, interfaces muito 'gordas', com muitas propriedades, forçam as classes implementa-las o que por vezes pode conter propriedades que não sejam utilizadas, neste caso, fazer uma refatoração na interface é uma boa.
