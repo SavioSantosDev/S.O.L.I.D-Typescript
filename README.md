@@ -1,6 +1,8 @@
 # S.O.L.I.D-Typescript
 Repositório para o entendimento dos 5 princípios S.O.L.I.D utilizando Typescript.
 
+- Antes de tudo, uma recomendação, principalmente para os iniciantes, é desenvolver todo o código da forma que sabemos até eles estiver funcionando e pronto para ser utilizado. Depois disso, visto que um código nunca está pronto, podemos ir implementando boas práticas de programação.
+
 Será utilizado um programa de carrinho de compras com funcionalidades para adicionar/remover itens, verificar se o carrinho está vazio, calcular o valor total dos itens do carrinho, checar e finalizar o pedido.
 
 A pasta `src/legacy` contém o arquivo inicial de carrinho de compras com todas as funcionalidades acima.
@@ -26,3 +28,33 @@ Subtipos precisam ser substituíveis por seus tipos de base
 ## I - Interface segragation principle || Princípio da segregação de interface
 
 Os clientes não devem ser forçados a depender de interfaces, types ou classes abstratas que não utilizam. Ou seja, interfaces muito 'gordas', com muitas propriedades, forçam as classes implementa-las o que por vezes pode conter propriedades que não sejam utilizadas, neste caso, fazer uma refatoração na interface é uma boa.
+
+## D - Dependency inversion principle || Princípio da inversão de dependência
+
+Módulos de alto nível não devem depender de módulos de baixo nível, ambos devem depender de abstrações.
+
+- Dependa de abstrações não de implementações
+- Abstrações não devem depender de detalhes. Detalhes devem depender de abstrações
+- Classes de baixo nível são classes que executam tarefas (detalhes)
+- Classes de alto nível gerenciam classes de baixo nível.
+
+
+## Vantagens e desvantagens de SOLID
+
+**Vantagens**  
+- Código modular
+- Código reutilizável, D.R.Y (Dont't repeat yourself)
+- Código testável
+- Baixo acoplamento e alta coesão
+- Código expandível
+- Separação de conteitos
+- Fácil manutenção
+
+**Desvantagens**  
+- Aumento de complexidade
+- Aumento na quantidade de código digitável
+- Tempo de desenvolvimento aumenta bastante
+
+**Cuidados**  
+- YAGNI: You aren't gonna neet it (Você não precisa disso)
+- KISS: Keep it simple, stupid  (Matenha isto simples, estúpido);
